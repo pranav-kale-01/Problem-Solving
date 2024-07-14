@@ -6,7 +6,7 @@ public:
         int r = 1;
         int n = nums.size(); 
 
-        while( r < n && l < n-1 ) {
+        while( r < n ) {
             if( nums[l] == 0 && nums[r]==0 ) { 
                 r++; 
             }
